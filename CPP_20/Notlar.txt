@@ -1,0 +1,75 @@
+20.ders:
+
+***þimdi fonksiyonlar konumuzda ögrendiklerimizi kullanarak bir sayý tahmin oyunu hazýrlayacagýz..
+
+öncelikle kullanýcýnýn bulacagý sayýlarý türetelim
+bunun için bir sayitüreten fonksiyon yazalým.
+
+bunun için gerekli kütüpheneyi ekleyelim.
+
+
+#include<windows.h> // kütüphane dosyasý
+
+srand(getTickCount());// özel sistem komutu
+int num2=rang()%15;
+system("color 2b");
+
+
+
+þimdi rastgele sayi olayýný yapmak için özel sistem komutunu kullanalým.
+
+þimdide 1-100 arasýnda sayiyi türetmeye geldi.
+
+int sayi=rang()%aralýk;// olarak degiþtirdik
+
+biz burda 100 degerini gircegiz.
+
+
+return sayi;// sayi degeri dönsün
+
+sayilarýmýz dsayi adlý degiþkende bulacagýz...
+
+koþullarý if ile yapalým.(swicht case ile de olabilir belki)
+
+
+
+örnege bakýn.(sayi tahmin)
+
+
+
+evet gördügünüz gibi sayi rastgele bir deger bi bunu bilmiyoruz
+
+ama yönlendirmeler ile bunu yapaliyoruz .bilebiliyoruz
+
+
+** sayaclý olan sayi tahmin oyununda ise (sayi tahmin_2)
+
+þimdi koydugumuz sayac ile kullanýcýya 10 hak tanýyoruz...
+
+gördügünüz gibi sayac 10'du 0 oldugunda program bitti.
+
+þimdide programa tekrar oynarmsýnýz secenegini ekleyelim...(sayi tahmin_tekrar_oynarmsýnýz)
+(do ekledik.)
+bunun içinde bir fonksiyon yazalým.
+
+tabiki de int main üstüne yazýyoruz...
+
+kullanýcýdan 1 degerini alýrsak devam edecegiz...
+
+
+evet yaptýgýmýzda bir hata var buda sayacý tekrar ayarlamak...
+
+sayi_tahmin_tekrar oyununda 3. örnekte 
+sayac kýsmýný düzeltiyoruz. 
+
+do altýna 
+
+sayacý ekledik örnegin,gördügünüz gibi sayac degiþkeni do döngüsüne konuldugunda hiç bir eksiliþ olmayacaktýr...
+program devamlý sayý isteyecektir.
+
+programýmýza renk ekleyebilriiz..
+
+system("color 2b") ifadesiyle zemin ve text rengini degiþtirebiliyoruz.
+
+
+***ders sonu

@@ -1,0 +1,138 @@
+25.ders:
+
+ders konusu işaretçiler:
+
+işaretciler bir degişken grubun veya tek bir degişkenşn bellekte bulundugu yerin adresini işaret eden program parcacıklarıdır.
+
+int sayi;
+
+gibi bir degişken bellekte 
+
+0010 gibi bir adreste saklıdır...
+biz işaretciler ile bu adreslere ulaşabiliriz.
+
+dikkat edin işaretci degişkeni degil sadece degişkenin adresini gösterir.
+
+gösterir dedik çünki işaretciler o adreste degildir...
+
+bunu şunada benzetebiliriz ...
+
+
+bir sinema da boş olan 10 koltuk oldugunu düşünün ...
+biletinizi alıp biletinizdeki numaraya bakarak sizin hangi koltuga oturacagınızı gösteren bir görevli vardır..
+
+işte işaretcilerde bunlar gibidir...
+
+degişkenin bellekteki adrsini gösterirler.
+
+özellikle dinamik bellek yönetiminde cok kullanılır...
+
+***
+işaretcilerin tanımlanması:::
+
+<işaretçi_tipi>*<iaşretci_adı>;
+
+degişken belirlemekten yada tanımlamaktan farklı olarak işaretci adının başına * ifadesi konur...
+
+bu ifade o degişkenin işaretci oldugunu gösterir..
+
+int * is1;
+
+
+is1 adında int tipinde bir işaretci tanımladık...
+
+
+int *is2,*is3,*is4 
+
+
+şeklinde de tanımlanabilir...
+
+işaretcilere degişkenin verilerinin  adreslerini gösterir demiştik...
+
+
+şimdi tanımlanan her hangi bir verinin adresini işaretcimize atayalım...
+
+
+int *is;// is işaretcimiz
+
+int sayi;// sayi adında bir degişken ...
+
+is=& sayi;
+ifadesiyle is işaretcisine sayi degişkenin bellekte bulundugu adresi tanımlammış olduk.
+
+
+& ifadesiyle bunu yaptık.
+dikkat edin işaretcimiz ve degişkenimiz int tipindedir...
+
+
+int *is;
+int sayi;
+
+is =&sayi// sayi degişkenin adresi is işaretcisine atandı...
+
+
+
+
+cout <<is ;
+
+
+bu program derlendiginde ilk olarak is şaretcisi ve sayi degişkeni tanımlanır...
+
+sonra is işaretici sayi degişkenin bulundugu adrese gider ve o adrese işaret eder...
+
+
+dikkat edin o adresi almaz sadece işaret eder...
+
+yani her iaşretcininde bir adersi vardır.
+
+cout<< is;
+
+ ifadesiyle is iaşretcisinin gösterdigi adresi ekrana yazar...
+
+
+bunu bir programla gösterelim...
+intx[10]= ifadesiyle 10 elemanlı bir dizi tanımladık.
+
+bu dizi 0 elemanından başlayacagı için bizde ona göre tam 10 deger atadık..
+
+örnek 1:işaterciler
+
+
+int*ix=x;ifadesine bakalım.
+
+
+bu ifade ix işaretcise tanımlıdır...
+
+
+örnek 2:işaretciler1:
+
+ilk olarak degişkenlerden başlayalım ..
+
+inta=5;olarak tanımladıgımız a degişkenine özel bir işaretci degişken tanımladık ..
+
+is işaretcisi a=5 degerini gösteriyordu.
+
+*is 
+
+is=&a; ifasiyle is işatercisinin göstermesini istedigi degeri  a'nın bellekte ki adresini yazdık....
+
+cout<<is ;ifadesiyle işatretcimzi ekrana yazdırdık.
+
+ekranda ifade a=5;
+
+degişkeninin bellekte bulundugu adresi gösterir.
+
+
+ifade 16 lık sayı tabanındadır...0x22ff74
+
+is işaretcimiz bu degişkenin adresini tutar.
+
+eger cout<<*is;
+ifadesiyle is işaretcisinin  gösterdigi adresin içerisindeki veriyi okuduk ve yazdırdık...
+
+örnek3:işaretciler3
+
+her iki mantıgın kullanıldıgı   bir örnek var.
+
+
+

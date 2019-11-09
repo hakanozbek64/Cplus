@@ -1,0 +1,32 @@
+31.ders:
+
+örnek:
+
+
+
+þimdi trigonometrik fonksiyonlarýn nasýl kullanýlacagýna bakalým.
+
+
+bu fonksiyonlarý kullanmak için math.h headerini programýmýza ekleyelim.
+
+örnek:
+trigonometrik fonksiyon örnegi
+-------------------------------
+yapacagýmýz programda girecegimiz acýya göre 
+bize
+
+sin,cos,tan,cot
+
+
+degerlerini verecek bir algoritma hazýrlayacagýz.
+-------------------------------------
+öncelikle belirli degiþkenlerimizi tanýmlayalým.
+
+
+þimdi aldýgýmýz açý cinsinden degeri radyan türüne cevirelim...
+
+kullanýmý oldukca basit bu fonksiyondan yararlanabiliriz.
+
+***
+ders sonu.
+

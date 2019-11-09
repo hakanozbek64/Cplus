@@ -1,0 +1,72 @@
+23. ders:
+
+bu derste dizilere giriþ yapýcagýz.
+
+*diziler indisli degiþkenlerdir.
+* ayný türden degerleri tutabilirler.
+* yazýmý::
+
+ dizitipi dizi_adý[dizi_boyutu];
+
+þeklinde tanýmlaabilir.
+
+char ad[5];
+
+burada char dizi tipi, ad dizi ismi ,5 ise dizi boyutudur....
+
+dizilerin ilk eleman  0 oldugu için dizi eleman sayýsý boyutun bir fazlasýdýr.
+
+yani n boyutlu bir dizede n+1 elaman vardýr...
+
+char ad[5];
+
+gibi bir dizi 
+
+0,1,2,3,4,5,6 
+
+þeklinde 6 elemandan oluþur.
+
+
+dizilere deger atama :
+
+char ad[5];
+
+
+ad[0]='a';
+
+þkelinde teker teker indislere deger atýlabilecegi gibi for döngüsü ilede dizilere deger atýlabilir....
+
+
+þimdi bunu programda gösterelim.
+
+
+örnekte char a[5];
+
+ile 6 elemenlý bir dize tanýmladýk...
+
+sonra bu kullanýcýdan bu diziye deger atamasýný istedik...
+for döngüsüyle aldýgýmýz degeri alt alta karekter þeklinde yazdýracagýz...
+
+görüldügü gibi  i degiþkeni 0'dan 5' e kadar artacak...
+
+her artýgýnda a'nýn i 'li indeksini yani elemanýný ekrana yazdýracak
+ve alt satýra gececek.
+
+a[i]; ifadesi a'nýn i. elemanýn belirler.
+
+þimdi programý derleyip calýþtýralým....
+
+programa bakýn
+
+
+evet girdigimiz degerin karekterleri (elemanlarý) 6 dan büyük oldugu için ;
+
+
+program sadece girilen degerin 6 elemanýný ekrana yazdýrdý...
+
+evet dizilerin tanýmý bu kadar 
+
+ders sonu...
+
+
+

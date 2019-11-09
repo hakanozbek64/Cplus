@@ -1,0 +1,39 @@
+21.ders:
+
+*** sayı tahin oyunu ile ilgili son degişiklikler:::
+
+sayı bulundugumda yeni bir sayı türetiyoruz.
+
+...
+cout<<"tebrikler sayi dogru"<<10-sayac<<". hakkınızda"<<endl;                
+           sayac=10;
+            karar2=tekrar();
+            dsayi=sayiturev(100);          
+     }
+....
+
+sayıturev fonksiyonu kullanıyoruz.
+
+
+sayac degişkenimizi 10 yapıyoruz.
+ki tekrar hakkımız olsun.
+
+kullanıcıya tekrar oynayıp oynamayacagını soruyoruz.
+
+kullanıcıya sayıyı buldugunda kacıncı hakkında bulundugunu söylüyoz.
+.....
+cout<<"tebrikler sayi dogru"<<10-sayac<<". hakkınızda"<<endl;
+
+....
+cout<<"sayimiz:"<<dsayi<<endl;
+ise kullanııcı sayıyı bulamadıgında tuttugumuz sayiyi kulalnıcıya gösteriyoruz.
+
+
+örnegi calıştırırsak 
+görüldügü gibi bilgisayarın tuttugu sayıyı bize yazıcaktır. 
+
+ayrıca sayıyı buldugumuzda program bize kacıncı hakkımızda bulundugumuzu gösterdi.
+
+oyunumuz bu kadar 
+
+***ders sonu.

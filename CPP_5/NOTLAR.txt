@@ -1,0 +1,40 @@
+5.ders 
+c++ türünde bir proje acalým
+dosya> yeni> proje
+console application 
+c++
+isim:operator_2
+
+bu derste mantýksal operatorleri görecegiz.
+mantýksal operatorlar:
+
+ <,>,<=,>=,== ifadeleri mantýksal operatorlerdir.
+
+&& => ifade mantýksal ifade olarak veya'dýr.
+ || => ise mantýksal olarak veya'dýr.
+mantýksal operatorleri iki veya daha fazla ifadede kullanancagýz.
+< ifadesi matemetiksel küçüktür operatörüdür.
+> ifadesi ifadesi büyüktür operatorüdür.
+>= büyük eþittir operatörüdür.
+<= küçük eþittir operatorüdür.
+
+== ise eþittir operatörüdür.
+kullanýmý :!!!
+
+a<b
+c>b
+c<=k
+k==m 
+gibi
+
+
+mantýksal ifadelerden && ve || veya kullanýmý
+bu matematiksel olarak p ve q -  p veya q anlamýnda kullanýlýr.
+(a>=b)||(c<d)  -> a büyük eþit b veya c küçük d
+(a==d)&& (d<=) -> a eþit d ve d küçük eþit 5 
+
+þeklinde kullanýlýr.
+mantýksal operatöeler bu kadar 
+uygulama diger  derste (6)
+
+

@@ -1,0 +1,32 @@
+27.ders:
+
+bu ders c türünde program nasýl hazýrlayacagýmýza bakalým...
+
+
+-> c projesi seciyoruz
+-> konsol application secili kalýyor.
+-> c_projesi oluþturduk.
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+ifadeleri c ile kullanacagýmýz kütüphaneler.
+
+þimdi eski bilgilerimizi kullanarak bir program hazýrlayalým...
+
+
+c ile ekrana yazdýrma ve bilgi alma komutlarýný 
+
+    printf("bitis sayisini girin: ");
+    scanf("%d",&b)
+
+þeklinde kullanýyoruz...
+
+
+veri tiplerine  ait bildirimleri ise 
+
+%d %f %c gibi ifadelerle kulanýyoruz...
+
+
+***ders sonu

@@ -1,0 +1,56 @@
+hoþgeldiniz............
+
+
+1.yeni bir proje acmak
+dosya > yeni> proje> consolo aplication
+isim:ilk program   
+c++ projesi
+derleyici baþlangýç ve bitiþ kodlarýný otomatik olarak eklemiþ
+ilk program olarak ekrana cout<<"";
+komutunun aldýgý parametre ile "selam dünya" yazdýralým .
+derleme ctr+f9 basarak main dosyasýný kaydedelim.
+derleme mesajlarý 
+toplam hata 0  iletisini görebileriz.
+program hata vermediyse projeyi çalýþtýrabiliriz.
+çalýþtýr basarsak
+c dos ekraný karþýmýza gelicektir.
+merhaba dunya görüldü 
+projemiz baþarýlý olmuþtur.
+
+kodlarýmýzým açýklamasý:
+#include ifadesinden sonra gelen  header(baþlýk) dosyalarý program kütüphaneleridir.
+bir takým kodlarý kullanmak için bu kütüpahanelere ihtiyac duyarýz .
+
+int main olarak acýlan fonksiyon programýn ana temel fonksiyonudur.
+ 
+C dilinde paramaeterler {} bloklarý  arasýndadýr.
+
+ve kodlarýn sonuna genelde  ; iþareti konur.
+
+system("PAUSE") ise programý son satýrda durdurmak için kullandým.
+
+return0;
+programdan cýkacagý windowsa bildiren komuttur.
+#include..
+
+cout<<""; parametresini inceleyelim.
+cout ekrandan cýktý almak için iostream header ýndan çagrýlan komuttur.
+
+
+bu benim ilk c/c++ projem 
+#include..
+...
+
+cout<<"bu benim ilk c/c++ projem "<<endl;
+...
+gibi
+
+cout komutu parametre olarak <<iþaretleri ile  ayrýlýr .
+örnegin:
+...
+cout<<"bu benim ilk c/c++ projem "<<"selam dunya"<<endl;
+....
+
+gibi
+
+cout komutunun sonundaki endl komutu satýrý bir alt yerden baþalatýr.

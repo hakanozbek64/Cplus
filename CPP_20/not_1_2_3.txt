@@ -1,0 +1,4 @@
+1. örnek:sayı tahmin oyunu (sınırsız döngüde)
+2. örnek:sayı tahmin oyunu( sayac ile max kac defa girebilecegini ekledik)
+
+3.örnek:2. örnekteki sayac tipine ek  sayı tahmin edilse bile tekrar tamnin oyununa girmek/cıkmak  için oluşturuldu.(buradada sayacla ne kadar döngüye gircegini belirtiyoruz.)

@@ -1,0 +1,100 @@
+
+28.ders:
+
+
+
+***
+bu ders baþlýk dosyalarý hazýrlamayý görecegiz..
+
+baþlýk dosyalarý genel olarak sýk kullanýlan fonksiyonlarý ve sýnýflarý içerebilir...
+
+programda kullanýrken 
+# include ifadesi kullanacagýz...
+
+baþlýk dosyalarýný programýmýzýn bulundugu dizine oluþturacagýz...
+
+þimdi bunu bir örnek yaparak gösterelim...
+
+
+aþamalarý:
+
+
+1 )yeni bir klosör oluþtur .
+
+2 )yeni kaynak dosyasý
+
+3 )farklý kaydet (yeni dosyayý bul)
+
+4 )dosya adý:isimsiz1 ->degiþtir-> baslýk.h
+
+5 )yeni proje (consolo application)
+isim :sayi_ussu (örnegin)
+yeni kolosörü bul kaydet.
+
+
+6 )daha sonra farklý kaydet 
+
+#include "baslýk.h" 
+ekleriz. 
+burada zaten  ana klosörde 
+uzantýsý .h 
+olan ve kýrmýzýmsý bir klosör belirir.
+iþlem tamam.
+
+
+
+----------------
+program baþlýk dosyamýzý tanýdýgýna göre programýmýzý yazmaya baþlayalým...
+
+
+aç: baslýk.h ile main.cpp 
+klosörlerini
+-----------------------------------------
+baslýk.h ta
+
+fonksiyonumuzu baslýk.h adlý baslýk dosyamýza yazdýk...
+ int usal(int sayi , int us )
+    {
+    int carpým=i;
+    
+    for(i=1;i<us;i++)
+    
+    {
+                     
+             carpým =sayi*carpim;        
+                     
+    }
+
+---------------------------------------
+main.cpp baþlýkta
+
+þimdi bu fonksiyonu programýmýzda kullanalým...
+
+ int a;
+  int b;
+   cout<<"sayi ve ussunu girin:";
+   cin>>a>>b;
+   
+   cout<<a<<"ussu"<<b<<usal(a,b)<<endl;
+  
+
+
+
+program hazýr.
+
+----------------------------
+
+
+þimdi derleyip calýþtýralým..
+
+
+
+
+fonksiyonumuz baþlýk dosyasýndan çalýþýyor...
+
+eger bir fonksiyona daha ihtiyacýmýz varsa yine baslýk dosyamýza yazabiliriz...
+
+
+
+***
+ders sonu

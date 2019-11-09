@@ -1,0 +1,59 @@
+12. ders:
+
+***bu dersimizde döngüleri iþleyecegiz.
+
+*döngüler bir iþlemi bir koþula baglý olarak istenilen sayýda tekrarlayan iþlemlerdir.
+
+*yani bir koþul koyarak bir iþlemi o kuþulun saglanmasý veya saglanmamasýný denetleyebilirsiniz.
+
+iþte bizde bunu döngüler ile yapacagýz...
+
+ilk döngümüz while döngüsü
+
+kullanýmý:::
+
+while(koþul)
+{
+
+iþlemler
+
+}
+
+
+*þimdi bir örnek yaparak konumuzu iþleyelim...
+
+while_döngü örnegi::
+
+*yaptýgýmýz programý inceleyelim:
+
+soru:
+
+adlý satýra bakýn 
+
+bu satýrý while döngüsünde kullanacagýz. 
+
+biz kullanýcýdan 1-7 arasýnda bir sayý girmesini istedik ...
+eger sayi1 degiþkeni 1 den küçük veya 7den büyükse program while döngüsüne takýlýr.
+
+orada kullanýcýya degerleri dogru girmesi uyarýsýný verdik ve 
+goto soru;
+diyerek soru: adlý baþtaki satýrýmýza gittik.
+yani program oradan tekrar baþlar...
+
+
+kullanýcý inat eder her defasýnda 1'den küçük ve 7 'den büyük bir deger girerse bizde onu her zaman
+ soru:satýrýna yollayacagýz.
+
+
+ne zaman inadý býrakýp 1-7 arasýnda bir sayý girerse program while döngüsünden cýkacak ve programý sonlandýracaktýr....
+
+
+evet while döngüsü bu kadar 
+
+
+****ders sonu.
+
+
+
+
+

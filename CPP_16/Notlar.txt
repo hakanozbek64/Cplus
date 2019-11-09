@@ -1,0 +1,60 @@
+16.ders:
+
+döngülere devam ediyoruz...
+
+***þimdiki konu for döngüsü
+
+
+evet for döngüsünü þöyle anlatalým..
+
+***baþlangýcý ,bitiþi ve hýzý olan bir araç gibi
+
+-gittigi sürede yaptýrmak istediklerimizi döngüye koyacagýz.
+
+kullanýmý:::
+
+for(x=0;x<=100;x++){
+
+iþlemler  
+
+}
+
+->
+yani acýklamasý,
+
+baþlama noktasý :0
+
+bitiþ noktasý :100
+
+hýzý ise: x++ yani x=x+1(1 hýzýnda)
+
+þimdi bir örnek yaparak inceleyelim..
+
+
+
+ne yaptý bu for?
+
+
+
+baþlangýcý ve bitiþi ayarladýk
+
+x=0; x<=100
+
+hýzýnýda ayarladýk 
+
+x=x+1;
+
+
+iþte arabamýz yola cýkacak ve 0'dan 100'e 1 hýzýyla ilerleyecek
+
+hýzý degiþtirebilir ve degiþikligi gözlemleyebiliriz.
+
+
+***bizde bu döngüyü kullanarak iþlemlerimizi daha seri  bir hale getirebiliriz...
+
+
+for döngüsü bu kadar 
+
+****ders sonu...
+
+

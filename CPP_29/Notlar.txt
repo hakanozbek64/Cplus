@@ -1,0 +1,24 @@
+29.ders:
+
+bu ders matematiksel degerleri nasýl kullanacagýmýza bakýcagýz...
+
+ilk olarak algoritmasý biraz karýþýk olan asal sayý türetmeye bakalým.
+
+buradaki örnekte girilen degere göre asal sayi türetiyoruz..
+
+acýklama:
+
+
+
+kariþýk gibi görünsede aslýnda matematiksel olarak basit bir görünüþü var...
+
+yaptýgýmýz þey mod yani bölümden kalan ifadesine dikkat etmek....
+
+eger 0 ise continue diyerek for döngüsünün baþýna gidiyoruz ve yeni bir sayi istiyoruz...
+
+
+
+daha sonra onu denetliyoruz..
+böylece kalaný 0 yapmadan bize gelen sayiyi ekranda yazdýrýyoruz...
+
+***ders sonu

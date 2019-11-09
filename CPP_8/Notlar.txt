@@ -1,0 +1,78 @@
+8.ders:
+gecen ders iþledigimiz if komutu hakkýnda bir kaç örnek yapalým.
+þimdi burada 1.örnekte:
+kullanýcýnýn girdigi not degerlerine göre ortalamasýný bulduk ve bunu ortalama degiþkenine eþitledik.
+
+if(ortalama >50)
+ifadesiyle ortalama degiþkeninin 50'den büüyük olma durumunda kullanýcýya geçtigini haber verdik.
+
+50'den küçük olmasý durumunda ise kaldýgýný söyledik.
+degiþken int türünde oldugu için 50den büyük  ve 50den küçük sayýlardan baþka sadece degiþken 50degerini alabilir
+
+bizde bunu kullanarak kullanýcýya 50 notunda gectigini bildirdik.
+
+þimdi
+
+2. örnek:kullanýcýya ortalamasýný da verelim.
+if_ornegi_2:
+...
+if(ortalama>50)
+ cout<<ortalama<<"_notunda gectiniz"<<endl;
+if(50<0)
+ cout<<ortalama<<"_notunda kaldiniz"<<endl;
+
+
+yaptýk
+
+bir degiþkenicout<< parametresine eklerken 
+
+cout<<degiþken; þeklinde yapýyorduk.
+
+
+
+3. örnek:
+evet þimdide kullnýcýya 0'dan küçük ve 100'den büyük deger girdiginde uyaralým...!!!
+
+burada notu tekrar  girmesini isteyebiliriz yada goto komutunu kullanabiliriz.
+
+örnegin:
+.....
+ortalama_al:
+cout<<"1. notunuzu girin:";
+  cin>>not1;
+ if(not1<50) cout<<"notu tekrar girin:";
+  
+  cout<<"2.notunuzu girin:";
+  cin>>not2;
+
+
+gibi burasý sadece fikir veriyor tam cevap kodlama yapýlmamýs 
+kodlama :
+goto ile yapýlmýþtýr.
+
+örnek3 e bakýn.
+
+þimdi ne yaptýgýmýzý acýklarsak:
+
+
+ortalama_al:
+adýndaki satýra dikkat  edin bu satýrý if ile cagýracagýz.
+
+öncelikle (not1<0)||(not1>100)'e bakalým...
+
+|| iþareti veya'dýr.
+
+not1 sýfýrdan küçükse veya not1 100'den büyükse demektir
+
+goto ortalama_al ; //ortalama_al satýrýna git...
+
+aynýsýný not2 için yaptýk ve onuda ortalaam_al2 satýrýna gönderdik.
+
+
+
+kullanýcý dogru aralýklarda sayýlar girerse bizde direkt olarak 
+ortalamayý hesapladýk ve kullanýcýya verdik.
+önemli:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+{} ifadeleri kullanýlabilir bunlar sadece ifadelerin karýþmamasý için kullanýlabilir
+istersek kullanmayabiliriz.

@@ -1,0 +1,61 @@
+15.ders
+
+döngülere kaldýgýmýz yerden devam ediyoruz.
+
+*do-while (rand) döngüsüne geçelim(bakalým). 
+
+do-while döngüsünü while döngüsünden ayýran özellik koþulun sonda olmasýdýr....
+
+yani program döngüye en az bir kere girecek.ve eger en sondaki koþul saglanmýyorsa döngüden cýkacaktýr...
+
+   þimdi bir örnek yapalým...
+
+(do-while döngüsü)
+
+*þimdi yaptýgýmýz acýklarsak(bakalým);
+
+döngünün baþladýgý yere dikkat edin...
+
+
+kullanýcýdan bir sayi istiyor..
+
+sonra kullanýcýya sayiyi veriyor..
+
+
+eger girdigi deger 0'a eþit ise döngüden cýkacak..
+
+sonraki while döngüsündeki komut x!=0 ise eger x 0 ,degilse döngüye devam et anlamýndadýr...
+
+
+do-while kullanýmý :::
+
+
+do{
+
+iþlemler
+
+iþlemler
+
+}
+while(koþul);
+
+
+//
+buna göre;
+
+programý calýþtýralým ...
+//
+
+þimdi birde sýfýrý girelim.
+
+program bir sayi daha istemedi.
+
+
+yani döngüden cýktý..
+
+sadece koþul en sonda....
+
+
+
+***ders sonu***
+

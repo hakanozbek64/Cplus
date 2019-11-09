@@ -1,0 +1,52 @@
+22.ders:
+
+þimdi fonksiyonlarda bazý iþlemleri anlatacagýz..
+
+çalýþma sayfasý oluþturalým..
+
+þimdi main fonksiyonun dýþýndan (fonksiyon dýþýndan) aldýgý bir degeri programda nasýl kullanacagýmýza bakalým.
+
+***örnege bakýn!!!deneme1
+
+görüldügü gibi fonksiyon dýþýndaki bir degeri böyle kullanabiliyoruz.
+
+þimdi inline fonksiyonlarý inceleyelim.
+
+
+sadece bir sayýnýn karesini alan bir program yazmak için 
+
+bir fonksiyon yazmak gereksiz oalabilir..
+bunun için inline fonksiyonlar kullanacagýz..
+
+bunu #define komutuyla kullanacagýz.
+
+***örnek:deneme2
+
+inline fonksiyonlarý da bu þekilde kullanabiliriz.
+
+yalnýz bu fonksiyonlar çok fazla uzun olmasýn.
+
+
+basit bir þekilde hazýrlayýn...
+
+
+
+fonksiyon içinde fonksiyon kullanabiliriz...
+
+örnegin::
+
+carp(x,topla(x,y));
+
+gibi 
+bunu bir örnekle yapalým...
+deneme 3 
+
+3*(2+5)=21 
+
+sonucu dogru.
+
+***ders sonu
+
+
+
+

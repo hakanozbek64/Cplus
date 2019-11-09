@@ -1,0 +1,2 @@
+ *kullanıcıdan alınan 2 sayısal deger arasındaki sayıları ekrana yazdıracagız.
+*

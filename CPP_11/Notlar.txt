@@ -1,0 +1,38 @@
+11. ders
+þimdi basit bir hesap makinesi yapalým.
+bunun için bir proje acarak baþlayalým.
+programýmýzý hazýrlamaya baþlýyalým.
+
+ilk olarak sayi1 ve sayi2 adýnda 2 degiþken belirleyelim.
+
+þimdide sonuç adýnda bir degiþken belirleyelim.
+
+iþlemi ögrenmek için karekter olarak bir deiþlem degiþkeni belirleyelim.
+
+ilk olarak 1. sayýyý sonra iþlemi sonra 2.sayiyý alalým
+
+þimdi bu degerleri switch case ile kontrol ederek sonucu verelim.
+evet bu hesap makinesinde sadece 4 iþlem yaptýrdýk. 
+
+daha sonraki derslerimizde farklý iþlemlerde yapabilecegiz.
+
+þimdi programý calýþtýralým ...
+
+Ýslem degiþkeni '+' degerini aldýgý için birinci case 'e girdi ve sonuc degiþkenine 2 sayýnýn toplamýna eþitledi.
+
+örnegin 2. iþlem '-' oldugu için de sonuc degiþkenini sayilarin farkýna eþitledi.
+
+
+carpma iþlemine göre ise 3. case'e gitti.
+ve sonucu sayi1*sayi2 yaptý.
+
+
+degiþkenlerimizi float türünden yaptýgýmýz için
+sonuc ondalýklý kesirde görüntülendi.
+
+
+hesap makinesi bu kadar
+
+ders sonu.
+
+ 

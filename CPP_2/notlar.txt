@@ -1,0 +1,57 @@
+2.ders veri yapıları:
+dosya> yeni > proje 
+console aplication  c++ projesi seç.
+ismi :data
+oluştur
+kaydet
+buradaki kodların ne işe yaradıklarını geçen ders (1) ögrenmiştin.
+
+veri tiplerinin bir kısmı:
+degişkenler programda kullanılan bilgilerin hafızada tutulan adlarıdır.
+şimdilik 
+
+int ,float,char,lomg degişkenlerini ögrenelim.
+int -> tamsayı degişkeni   -32.000 <> +32000 arasında
+char-> karekter degişkeni
+long ->uzun tamsayı  +/- 2 milyar çivarında
+float ->ondalıklı sayı biçimi 
+
+degişken tanımlama:
+
+degişken_turu degişken adi;
+
+int degişken;
+char degişken;
+long degişken;
+float degişken;
+
+
+degişkenlere deger atama...
+
+int sayi1,sayi2;// diyerek 1. satırda 2 degişken belirleyebiliriz.
+
+sayi1=sayi2+5;
+sayi1=sayi2-4;
+sayi1=sayi2*sayi1;
+sayi1=(sayi1+sayi2/)10
+şeklinde matemetiksel ifadelerle degişkenleri degerlendirebilriz.
+
+degişenleri kullanıcıdan alma:
+
+cout<<"bir sayi girin:";// bu komutu gecen ders (1) de ögrenmiştik.
+
+cin>>sayi1;//şeklinde bir ifadeyle program kullanııcıdan alacagı degere 
+cin>> parametresindeki degişken degerine atayacaktır...
+
+
+degişkenleri ekran cıktısında gösterme
+
+int sayi1;
+sayi1=5;
+cout<<"beş sayısı:<<sayi<<endl";
+örnek:
+şeklinde cout<< parametreleriinin istenilen kısmına yazılan degişken ekranda gösterilebilir.
+
+yaptıgımız programda cout<<""; ifadesiyle sayi istedik ve cin>> ile ekrana girilen degeri sayi2 degişkenine atadık...
+sonra aynı işlemi sayi2 için yaptık ve cout<<"";
+ile aynı parametrede 2 sayıyıda verdik.

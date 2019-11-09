@@ -1,0 +1,42 @@
+30.ders:
+
+
+matematiksel ifadeler ile ilgili konumuza devam ediyoruz...
+
+örnek _1
+(birinci dereceden denklem)
+
+þimdide 1. dereceden ve 2. dereceden denklemleri cözdürelim...
+
+1.dereceden denklemimiz.
+
+ax+b=0 
+
+þeklinde a ve b katsayý ve terimini alýyoruz...
+
+x degeri
+
+x=-b/a dýr.
+-------------
+örnek:
+
+2.dereceden denklem
+
+2. derece denklemler için gereken bir fonksiyonu math.h dosyasýndan cagýrmalýyým...
+  
+
+burada sqrt anlamý kök almadýr.
+
+örnegin:
+x1=(-b-sqrt(dis))(/2*a);
+yani
+
+x1=(-b-kök(dis))(/2*a);
+
+
+
+2.dereceden deklemleri cöznek için kullandýgýmýz diskiriminat yöntemini kod halinde yazýp denklemimizi cözüme ulaþtýrdýk...
+
+
+*** 
+ders sonu

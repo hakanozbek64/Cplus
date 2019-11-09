@@ -1,0 +1,1 @@
+kullanýcýnýn girdigi not degerlerine göre ortalamasýný bulduk ve bunu ortalama degiþkenine eþitledik

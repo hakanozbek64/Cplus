@@ -1,0 +1,73 @@
+6. ders:
+
+bu ders ?: komutunu görecegiz.
+bu komut bize basit bir karþýlaþtýrma durumunda kolaylýk saglar...
+
+kullanýmý :
+koþul? olaylar : olaylar
+
+þimdi bir örnek yapalým:
+
+
+örnek:1
+
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    int sayi1;
+    cout<<"bir sayi girin :";
+    
+    cout<<(sayi1%2==1 ? " sayi tek" : "sayi cift");
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+    
+}
+
+
+sayi1%2 ==1 ifadesi sayi1 degerinin  2 degerine bölimümden kalaný ifade eder yani mod.
+eger kalan 1 ise 
+
+(sayi1%2==1 ? " sayi tek" : "sayi cift")
+
+// == ifdesini gecen ders görmüþtük
+// koþulundan sonra gelen ? ifade ile koþulun saglanmasý durumundaki olaylarý yazabiliriz.
+
+
+:ifadesi ile koþulun saglanmasý durumundaki ifadeleri yazabiliriz...
+
+bu komutu çok kullanmayacagýz.
+özellikle  uzun iþlemli programlarda tercih edilemez bir komut.
+ sadece örnek amaçlý kullandýk ve mantýksal ifadelerinde nasýl kullanýldýgýný gördük...
+
+c++ de eþit degil mantýksal ifadesi != ile kullanýlýr.
+
+a!=b-> a eþit degil b'dir.
+
+
+örnek:2
+
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    int sayi1;
+    
+    cout<<"bir sayi girin:";
+    cin>>sayi1;
+    
+    cout<<(sayi1%2==1 ? "sayi Tek" : "sayi cift");
+    system("PAUSE");
+    
+    
+    return EXIT_SUCCESS;
+    
+
+ders sonu

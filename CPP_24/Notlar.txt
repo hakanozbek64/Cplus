@@ -1,0 +1,56 @@
+24.ders:
+gecen ders dizilere giriþ yapmýþtýk ...
+
+
+*** bu ders string dizilere baþlayacagýz.
+
+*string diziler karekter kelilme guruplarýdýr.
+
+*karekter gruplarýný string kütüphanesinden cagýrabiliriz.
+tanýmlama 
+
+string degiþken ;
+
+þeklindedir.
+--------------------------
+1.örnege gecersek:
+
+öncelikle: 
+
+#include <string> 
+kütüphanesini ekliyoruz.
+
+þöyle yazarsak;
+if(cevap=='iyi')
+burada görüldügü gibi  tek týrnak ifadesi coklu karekter gruplarýnda kullanýlmaz
+
+bunun yerine "" kullanacagýz. 
+
+
+
+**burada program aldýgý degerlere göre hareket etti...
+
+
+dikkat ettiyseniz ..
+2 kelimelik deger için 2 kere baþa döndü...
+
+
+program sadece kendisinden istenilenlere cevap verebilyor...
+
+-----------------------------------------
+burada string ifadesinden indsli elemaný bularak iþlem yapabilriz.
+
+
+2.string_dizler_inds örnegi:
+
+
+*büyük i degeri program tarafýndan belirsin bir karekter oalarak görüldügü için program baþa döner.
+
+ve ayrýca if konutlarýnda prantez kullanýmý istege baglýdýr.
+
+
+***ders sonu
+
+
+
+

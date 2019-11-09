@@ -1,0 +1,130 @@
+26.ders:
+
+
+gecen ders baþladýgýmýz iþaretcilere devam ediyoruz.
+
+int x[10]={0,1,2,3,4,5,6,7,8,9,};
+
+int *ix=&x[4];
+
+cout<<ix<<endl;
+cout<<*ix<<endl;
+cout<<&ix<<endl;
+
+
+ilk olarak bir x dizisi belirliyoruz.
+
+elemanlarýný ,diziyi tanýmladýktan sonra ardýna yazýyoruz.
+
+int *ix=&x[4];
+
+ifadesiyle ix isaretcimizi x dizisinin 4. elamanýna yani 4+1= 5. degerini göstermesini söylüyoruz.
+
+cout<<ix<<endl;
+ifade ile iþatercini gösterdigi adresi
+
+
+cout<<*ix<<endl;
+ifadeyle iþatercini gösterdigi adres içindeki veriyi 
+
+cout<<&ix<<endl;
+ifadeyle ise iþaretcinin kendi adresini yazdýrýyoruz.
+
+örnek:iþaretciler_1 de gösterilmiþtir.
+---------------------------------
+örnek:
+þaretciler_2
+
+
+
+
+int * a,b=25;
+a=&b;
+
+cout<<a<<endl;
+cout<<b<<endl;
+*a=30;
+
+cout<<*a<<endl;
+cout<<a<<endl;
+cout<<b<<endl;
+
+
+acýklama:
+
+int *a,b=25;
+
+ifadesiyle a iþaretcisi ve b degiþkenini tanýmlýyoruz.
+
+
+
+a iþaretcisini b'nin adresine eþitliyoruz...
+
+ardýndan önce a'yý sonra b'yi yazdýrýyoruz...
+
+sonra *a=30 ifadesiyle a iþatercisinin gösterdigi degeri ekrana yazdýrýyoruz.
+
+sonra a iþaretcisinin gösterdigi degeri  ekrana yazdýrýyoruz.
+sonra bu ifadeye ait adresi
+daha sonra b degiþkenini yazdýrýyoruz.
+
+
+sonuç:
+
+0x22ff70
+
+25
+
+30
+
+0x22ff70
+
+30
+
+acýklama:
+
+ilk adres b'nin adresidir.
+25 ise b degiþkenin degeridir.
+30 ilk adesteteki verinin degiþmiþ halidir.
+
+dikkat eederseniz veri degiþmesine ragmen adres degiþmedi..
+
+bunu 2. adreste görüyoruz...
+
+b ifadesini ekrana yazdýrdýgýmýzda ise 30 degerini alýrýz...
+
+
+------------------------------
+
+örnek:isaretciler_3
+
+int x[8]={1,2,3,4,5,6,7,8,}
+
+int *ix;
+
+
+ix=&[4];//4.eleman
+
+
+cout<<*ix+1<<endl;
+
+
+þimdi yaptýgýmýz programa bakalaým
+
+
+sonuç:6
+
+
+10elemanlý bir bir dizide 
+
+ix iþaretcisini 4. indise yani 5. elamana eþitledik...
+*ix=4 olur...
+
+
+*ix+1 diyerek bu dizinin 5. elamaný degilde bir sonra gelen elemanýný yazdýrmýþ olduk....
+
+
+bu ifadeyi  -1 diyerekte degiþtirebilriz ...
+
+
+***ders sonu

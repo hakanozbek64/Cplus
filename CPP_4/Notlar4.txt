@@ -1,0 +1,50 @@
+4.ders
+derleyici acarak hemen baþlýyoruz.
+operatörler programda degiþkenler için deger atama iþlemlerinde kullanýlýr
+
+metemetiksel operatörler
+*,+,-,/ gibi ifadeler
++=,-=,/=,*= gibi ifadeler bizlere kolaylýk saglayan C'ye özgü komutlardýr.
+
++=  toplama operatoru
+*=carpma operatoru
+/= bölme operatoru
+
+
+örnek;
+
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+   float a,b,c;
+   a=10;
+   b=15;
+   b /=a;
+   cout<<b<<endl;
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
+
+bölme operatoru içeren  bir örnek
+
+evet þimdi ne yaptýgýmýza bakalým .
+
+
+ilk olarak belirledigimiz int tipindeki degiþkenleri operator kullanarak
+eþitledik.
+a=10;
+b=15;
+ bundan sonra b'yi tekrar eþitledik..
+b+=a;  // bu ifadenin acýlýmý b=b+a
+b-=a;  //b=b-a
+b*=a;  //b=b*a
+b/=a;  //b=b/a
+
+son ifadede deger ondalýk cýkacagý için bizde bu degiþkenkenleri 
+flaot cinsinden belirledik...
+ders sonu.

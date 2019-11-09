@@ -1,0 +1,40 @@
+13. ders
+
+*evet while döngüsüne devam ediyoruz.(12 ders devamý)
+örnekte;
+þimdi kullanýcýdan alýnan 2 sayýsal deger arasýndaki sayýlarý ekrana yazdýracagýz.
+
+
+
+ilk_sayi < son_sayi oldugu için program ilk_sayi<son_sayi durumu saglanýncaya dek döngüde iþlenen komutlarý yapacak....
+
+yani ilk_sayi degiþkenine bir ekleyecek.
+
+4->   4<45 bir artýrýr.
+5->   5<45 bir attýrýr.
+6->   6<45 bir artýrýr.
+
+evet her bir artýrýþýmýzda cout<< ile ekrana yazdýrdýk..
+
+
+döngü saglanmadýgý taktirde program döngüden cýkacaktýr....
+
+45->   45=45 oldugunda program döngüden cýkacaktýr.
+
+
+evet ilk_sayi>son_sayi oldugu için program döngüye göre ilk_sayi degerini 1 azaltacak...
+
+sonrasý 1. iþlemdeki gibi.
+
+
+
+program 2 sayininde ayný oldugunu görünce uyarý verecek ve 
+goto git; ifadesiyle git: isimli, satýrdan baþlayacak....
+
+while_2 örnegi bu kadar 
+
+
+*ders sonu*
+
+
+

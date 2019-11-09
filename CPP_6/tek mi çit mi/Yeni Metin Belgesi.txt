@@ -1,0 +1,19 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    int main()
+    int num;
+    //sayıyı oku
+    cout<<"test edilecek sayııyı girin";
+    cin>> num;
+    //tek mi? cift mi? bak
+    if ((num%2)==0) cout<<"bu bir çift sayıdır \n";
+    else cout<< "bu bir tek sayıdır\n";
+    return 0;
+    
+}
+    

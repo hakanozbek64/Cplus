@@ -1,0 +1,26 @@
+17.ders
+
+**þimdi for döngüsüne küçük bir örnek yapalým...
+
+***yapacagýmýz örnekte for döngüsünü for döngüsünün içeresinde kullanarak  bir çarpým tablosu yapmak..
+
+hadi baþlayalým
+
+
+þimdi her x degeri bir attýgýnda y için for döngüsü bitene kadar devam edecek...
+
+ne zaman y<=10 olur ise y'ye ait 2.for döngüsü bitecek
+
+sonra x=2 degeri için tekrar acýlacak ve yine ayný iþlem uygulanacak...
+
+bunun sonucunda bizde kendimiz özel bir carpým tablosu hazýrlamýþ olacagýz...
+
+
+hemde 4 ,5 satýrlýk kod ile  !!!
+
+
+
+maksat for döngüsünü daha iyi kavramak
+
+
+***ders sonu

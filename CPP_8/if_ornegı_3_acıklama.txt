@@ -1,0 +1,1 @@
+kullanýcýya 0'dan küçük ve 100'den büyük deger girdiginde uyaralým.

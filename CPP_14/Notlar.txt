@@ -1,0 +1,27 @@
+14.ders
+
+*while döngüsüne devam ediyoruz...
+
+***þimdi bir faktoriyel bulma (hesaplama) programý hazýrlayacagýz.
+
+örnegi acýklarsak;
+
+
+i=1
+
+ve 
+
+toplam=1
+
+adýnda 2 degiþken ve kullanýcýdan aldýgýmýz bir sayi degiþkeni
+
+while koþulumuz i degiþkeni sayi degiþkeninden küçük oldugu taktirde i' degerini bir artýrýr ve toplam degiþkeni ile çarp
+
+i degiþkeni sayi degiþkenine eþit oldunca program döngüden cýkacak...
+ve sonuç toplam degiþkeninde kalacak....
+
+
+*dikkat edin toplam ve i degiþkenlerini 1 alýn yoksa çarpma durumunda sonuç hep ayný cýkar
+(yani o almayýn...)
+
+**ders sonu***

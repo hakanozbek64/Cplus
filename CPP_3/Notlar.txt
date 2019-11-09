@@ -1,0 +1,86 @@
+3. ders:
+data_2
+derleyicimizi açtýk
+
+dosya> yeni>proje
+
+ismi: data_2  c++ projesi
+console appliacation
+
+diger veri tiplerini inceleyelim.
+örnek:
+
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    int a=10;
+    intb=a/5
+    cout<<b<<endl;
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+
+}
+
+yani:
+öncelikle tanýmlama anýnda degiþkenlere deger atayabilriz.
+
+int a=5;
+gibi
+
+þimdi 10/4=2.5 degerinde int tipinde belirledigimiz degiþken onu 2 olarak aldý.
+çünki degerleri tamsayýlar oldugu için bir ondalýklý sayýyý ,'ünü atarak ekrana yazdý.
+
+
+þimdi bu programý birde float olarak kullanalým.
+float degiþkenler ondalýklý sayýlarý içeriisinde barýndýrdýgý için gercek sonucu vermiþtir
+2.5 gibi
+
+þimdide char tipini inceleyelim:
+
+
+char karekter tipidir.
+örnek:
+
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+   char a;
+   cout<<"bir karekter girin :";
+   cin>>a;//a karekterine atama
+   
+   cout<<"girdiginiz karekter :"<<a<<endl;    
+    
+   system("PAUSE");
+    return EXIT_SUCCESS;
+
+
+char tipi ile karekterleri kullanýcýdan isteyebiliriz.
+þimdi birde kelime girelim.
+
+ kelime degil sadece harf 'i okudu çünkü:
+
+char karekter oldugu için girilen degerin ilk karekterini aldý. 
+
+bunu önlemek için bir aralýk vermeliyiz. !!!
+
+[] ile bu aralýgý verebiliriz .yazýlan kelime ayrý yazýlmamalýdýr çünkü ozaman okumuyor.
+
+gidigimiz kelime 20kerekterden az oldugundan belirlenen aralýklara göre char dgiþkeni ile a degerini
+ekrana yazdýrabilirdik.
+
+
+evet þimdi hazýrlayýp, derleyip, calýþtýrdýgýmýz programlarýn exe dosyalarýna bakalým. 
+bu bizim proje dosyalarýmýz.
+
+yani 
+evet derlenen programlar proje klasöründe exe haline cevrilecektir.
+ders sonu.

@@ -1,0 +1,45 @@
+9. ders
+
+bu ders switch case yapýlarýný görecegiz.
+bu yapýlar else if karar ifadelerine benzer.
+
+amaç bir degiþkenin birden fazla durumunu incelemektir.
+
+kullanýmý:::
+
+switch(degiþken)
+{
+case durum1:
+
+iþlemler break;
+
+case durum2:
+
+iþlemler break;
+
+case durum n:
+
+iþlemler break;
+
+}
+
+þimdi derleyiciyi açarak devam edelim.witch
+
+örnek:
+
+
+
+dikkat ederseniz cout komutuna degiþken gömmedik.!!!!!
+
+sadece case ile degiþkenin durumunu inceledik.
+
+case'e': eger karekter 'e' ise ekrana girilen karekterin e oldugunu yazdýrdýk.
+---
+if else den farklý.
+-----
+
+Yani tamamen degiþkenin durumuna göre hareket ettik...
+sonuna  koydugumuz break ifadesi koþulluluk iþlemi yaptýktan sonra switch case den cýkmamýza 
+yarýyor.
+
+eger koþula koymadýgýmýz bir karekter olursa (örnegin f gibi ) switch case ifadesine girmeden program sonlandýrýlýr.

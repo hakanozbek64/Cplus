@@ -1,0 +1,120 @@
+19.ders
+
+
+***evet arkadaþlar bu dersimizin konusu fonksiyonlar:
+
+
+
+biz fonksiyonlarý 4 kýsma ayýrarak anlatýrsak;
+
+
+1- fonksiyon tipi
+
+bu fonksiyonun geri dönüþ tipidir.
+
+2)fonksiyon adý
+
+matematikte oldugu gibi  kullanýlýr...
+
+fakat biz bunu yaptýgýmýz iþleme göre kullanacagýz...
+
+yani fonksiyon hangi iþlemi yapýyorsa bizde ona göre bir ad kullanacagýz.
+
+
+3)aldýgý parametre (fonksiyon parametresi)
+
+bu fonksiyona verilecek degerin kullaným  yeridir.
+
+
+f(x) gibi bir fonksiyondaki parametre x'dir.
+
+kullanýmý x þeklindedir.
+
+
+
+4)döndügü deger  bu ise fonksiyonun tipine uygun görüntü kümesi elemanýdýr.
+
+
+
+return komutuyla geri döner.
+
+
+þimdi bunu bir þema ile  gösterelim..
+
+þemaya bakýn.
+
+N'den N'ye (kümlerinden ) bir f fonksiyonu
+
+burada fonksiyon tipi N2 dir.Yani fonksiyon geri dönüþ tipi ...
+
+fonksiyonun adý f'dir.
+
+
+fonksiyonun parametreleri 
+1,2,3,4 olur ve fonksiyon parametrelerinin tipleri N' dir.
+
+geri dönüþ tipleri N2'deki elemanlardýr.
+
+þekle bakýnýz..
+
+
+þimdi fonksiyon özelliklerinden bahsedelim ..
+
+
+*fonksiyonlar kullanýlmadan önce tanýmlanmalýdýrlar
+
+*fonksiyonlar main içerisine tanýmlanamazlar.
+
+*kullanýmlarý matematikteki gibidir.
+
+
+
+y=f(x) þeklindedir.
+
+y geri dönüþüm tipidir.
+
+
+kullanýmlarý:::
+
+fonksiyon tanýmlama
+
+þimdi bunu bir örnek yaparak gösterelim...
+
+
+// double tipi topla fonksiyonu
+
+double tipi a ve b parametreleri
+
+ve þu da bir fonksyon özelligidir ki fonksiyonlar sabit deger tanýmlanabilir...
+
+sabit deger dogrudan degiþtirilemez...
+
+bu fonksiyondaki sabit deger (degiþken )double toplam degeridir.
+
+
+toplam degeri fonksiyona girilen a ve b degerinin toplamýna eþeittir..
+
+return toplam ifadesiyle fonksiyon bu degeri döndürür....
+
+y=toplam (a,b); ifadesi ise bunu  y degiþkenine eþitleyip kullanabiliriz...
+
+
+fonksiyonlar {} bloklarý arasýna yazýlýr.
+
+
+
+ve dikkat ettiyseniz fonksiyon main' den önce tanýmlandý...
+
+
+þimdi programda bu fonksiyonu kullanalým..
+
+
+evet fonksiyonumuzu kullanarak basit bir toplama programý yaptýk.
+
+
+evet fonksiyonumuz iþe yaradý..
+
+artýk her defasýnda toplama veya herhangi bir iþlem cokca tekrarlamaktansa bir fonkisiyon hazýrlayýp onu kullanacagýz.
+
+
+***ders sonu

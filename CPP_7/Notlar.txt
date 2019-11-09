@@ -1,0 +1,150 @@
+7. ders
+
+  bu derste karar yapýlarýnýn ilki olan if-else bloklarýný görecegiz.
+
+if bloklarý programlarýmýzda koþullu ifadeleri yönetmek için kullanýlýr.
+
+a==1 ise program sonu degilse program baþýna dön  gibi
+(a eger 1 e eþitse program bitir degilse program baþýna dön )
+
+4 çeþit kullanýmý vardýr.
+kullanýmlarý:::
+
+if(koþul)
+{
+olaylar
+}
+þeklinde kullanýlabilir.
+
+1. kullaným:
+if(koþul) 
+olaylar 
+þeklinde
+
+2.kullaným:
+if(koþul)
+olaylar
+else
+olaylar
+
+þeklinde
+3.kullaným
+if(koþul)
+oalylar
+elseif(koþul)
+olaylar
+
+4.kullaným:
+if(koþul)
+olaylar
+elseif(koþul)
+olaylar
+else
+olaylar
+
+
+þimdi bu kullanýmlarý inceleyelim.
+
+if(koþul)  
+olaylar
+--------tek bir koþul var eger koþul saglanýrsa olaylarý iþle--------
+
+if(koþul)
+olaylar
+else
+olaylar2
+
+---------bir koþul var eger koþul saglanýrsa olaylarý iþle koþulun 
+herhangi bir saglanmama durumunda ise olaylar2'yi iþle-----------------
+
+if(koþul)
+olaylar 
+elseif(koþul)
+olaylar
+
+----------2 ayrý  koþula göre 2 farklý olayý iþle----------------------
+
+
+
+
+
+if(koþul)
+olaylar
+elseif(koþul)
+olaylar
+else
+olaylar
+
+--------ilk koþul saglanýrsa onun olaylarýný iþle .2.koþul saglanýrsa
+onun olaylarýný iþle bu iki koþulda saglanmýyorsa else olayýný iþle.
+
+
+þimdi örnekler:
+
+
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    int sayi1;
+    cout<<"bir sayi girin:";
+    cin>>sayi1;
+    
+    if(sayi1>0)
+    cout<<"sayi pozitif";
+    else if (sayi1<0)
+    cout<<"sayi negatif";
+    else
+    cout<<"sayi 0'dir";
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
+
+
+hata cýkarsa derleyici size hata yaptýgýnýz parametreyi göterecektir.
+
+
+evet kullanýcýnýn vedigi degere göre bizde bunlarý karþýlaþtýrdýk...
+
+if yani eger ifadesine göre
+eger sayi1 0dan büyükse 
+ekrana sayi1'in pozitif oldugunu yaz 
+eger sayi1 0dan küçükse 
+ekrana sayi1'in negeatif oldugunu yaz 
+eger iki koþuluda saglamýyorsa 
+ekrana sayi1 in 0 oldugunu yaz.
+
+programda if degerlerinde {} bloklarýný kullanmadýk.
+
+ancak koþulun saglanmasý durumunda bircok olay gercekleþecekse
+biz bunlarý {} kullanrak ayýrmamýz gerekir.
+ yukarýdaki örnekte  bunu kullansakta problem cýkmaz /hata verilmez/
+yani
+
+.....
+
+    if(sayi1>0){
+    cout<<"sayi pozitif";}
+    else if (sayi1<0){
+    cout<<"sayi negatif";}
+    else{
+    cout<<"sayi 0'dir";}
+
+.......gibi.................................
+
+kodlarýn bir birine karýþmasýn önlemek için cout<<"";
+ifadesinin sonuna endl ifadesini ekleyelim.
+
+evet if komutunu mantýksal ifadelerle kullanýrýz.
+<,>,>=,<=,!=,==  gibi
+
+
+
+
+
+
+

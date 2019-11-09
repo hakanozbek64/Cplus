@@ -1,0 +1,3 @@
+örnek:
+
+þimdi bir faktoriyel bulma (hesaplama) programý hazýrlayacagýz

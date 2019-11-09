@@ -1,0 +1,36 @@
+18.ders:
+
+*evet bu derste döngü komutlarýný görcegiz.
+
+özellikler for döngüsünde bu komutlarý kullanacagýz.
+
+continue-> bulundugu satýr itibariyle döngüyü en baþtan alýr..
+
+break->bulundugu satýr itibariyle döngüye son verir.
+(örnek var)
+
+
+***örnekte
+
+
+evet for döngümüzün içersne koydugumuz cout ile y'ye deger atamaya baþladýk..
+
+for döngümüzün ömrü 5 e kadar
+
+yeni x=5 olunca döngü bitecektir...
+
+
+dikkat ederseniz if(y==50) ile eger y'yi 50 girerse dedik ve sonuna break; ekledik
+
+
+yeni y 50'ye eþit olunca döngüden cýkýyoruz.
+
+ele ifadesiyle y'nin degerinden farklý bir deger olmasý durumunda continue ile döngüye en baþýnda baþlýyoruz..
+
+
+****x=5 oldugu için döngü degerini beklemeden sonlanacaktýr..
+
+döngü komutlarý bu kadar 
+
+
+*ders sonu
